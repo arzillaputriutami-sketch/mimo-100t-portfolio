@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { getSubmission, submissions, type Submission } from '@/data/submissions'
+import { getSubmission, submissions, type Submission } from '../../../data/submissions'
 import { notFound } from 'next/navigation'
 
 const themeColors: Record<string, { bg: string; accent: string; border: string; text: string }> = {
